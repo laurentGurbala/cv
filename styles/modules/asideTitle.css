@@ -1,0 +1,9 @@
+.aside__title {
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    text-align: center;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+}

@@ -7,6 +7,7 @@
 /* Modules */
 @import "modules/mainTitle.css";
 @import "modules/information.css";
+@import "modules/asideTitle.css";
 
 /* Design system */
 :root {
@@ -38,73 +39,4 @@ body {
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     color: var(--color-secondary);
-}
-
-img  {
-    width: 50%;
-    border-radius: 50%;
-    border: 2px solid var(--color-secondary);
-}
-
-aside h2 {
-    font-family: var(--title-font);
-    font-size: var(--title-font-size);
-    background: var(--color-secondary);
-    color: var(--color-primary);
-    text-align: center;
-    padding: 0.5rem 0;
-    text-transform: uppercase;
-}
-
-.photo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.contact {
-    padding: var(--about-padding);
-}
-
-.contact p {
-    margin-bottom: 1rem;
-}
-
-.contact p:last-child {
-    margin-bottom: 0;
-}
-
-.about {
-    padding : var(--about-padding);
-}
-
-.about p {
-    margin-bottom: 1.5rem;
-    text-align: justify;
-}
-
-.about p:last-child {
-    margin-bottom: 0;
-}
-
-.technologies {
-    padding: var(--about-padding);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.technologies p {
-    margin-bottom: 1rem;
-}
-
-.technologies p:last-child {
-    margin-bottom: 0;
-}
-
-.loisirs {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
-    padding: var(--about-padding);
 }

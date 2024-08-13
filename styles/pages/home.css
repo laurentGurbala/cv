@@ -21,6 +21,7 @@
 
 .aside {
     grid-area: aside;
+    background-color: var(--color-primary);
 }
 
 /* Hero selection */
@@ -42,4 +43,61 @@
 .hero__subtitle {
     font-family: var(--header-font);
     color: var(--color-secondary);
+}
+
+/* Aside section */
+.photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.photo img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid var(--color-secondary);
+}
+
+
+.contact__container, .about__container {
+    padding: var(--about-padding);
+}
+
+.contact__container p {
+    margin-bottom: 1rem;
+}
+
+.contact__link {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.about__container p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+
+.technologies {
+    padding: var(--about-padding);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.technologies p {
+    margin-bottom: 1rem;
+}
+
+.technologies p:last-child {
+    margin-bottom: 0;
+}
+
+.loisirs {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding: var(--about-padding);
 }
