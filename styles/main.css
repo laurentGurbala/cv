@@ -13,6 +13,7 @@
     --header-font: "Open Sans", sans-serif;
     --header-font-size: 3rem;
     --about-font-size: 0.8rem;
+    --about-padding: 1rem 2rem;
 }
 
 * {
@@ -41,6 +42,8 @@ header {
 aside {
     grid-area: aside;
     background: var(--color-primary);
+    color: var(--color-secondary);
+    font-size: var(--about-font-size);
 }
 
 img  {
@@ -80,11 +83,47 @@ main {
 }
 
 .contact {
-    padding: 2rem 1rem;
+    padding: var(--about-padding);
 }
 
 .contact p {
-    font-size: var(--about-font-size);
-    color: var(--color-secondary);
     margin-bottom: 1rem;
+}
+
+.contact p:last-child {
+    margin-bottom: 0;
+}
+
+.about {
+    padding : var(--about-padding);
+}
+
+.about p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+.technologies {
+    padding: var(--about-padding);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.technologies p {
+    margin-bottom: 1rem;
+}
+
+.technologies p:last-child {
+    margin-bottom: 0;
+}
+
+.loisirs {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding: var(--about-padding);
 }
