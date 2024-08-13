@@ -1,5 +1,12 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+/* Pages */
+@import "pages/home.css";
+
+/* Modules */
+
+/* Design system */
 :root {
     --color-primary: #90B2CA;
     --color-secondary: #404040;
@@ -12,8 +19,10 @@
     --title-font-size: 1.5rem;
     --header-font: "Open Sans", sans-serif;
     --header-font-size: 3rem;
+
     --about-font-size: 0.8rem;
     --about-padding: 1rem 2rem;
+    --body-padding: 0 2rem; 
 }
 
 * {
@@ -29,27 +38,6 @@ body {
     color: var(--color-secondary);
 }
 
-a {
-    color: var(--color-secondary);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-li {
-    font-size: 0.8rem;
-    margin-bottom: 0.4rem;
-}
-
-header {
-    grid-area: header;
-}
-
-h1 {
-    color: var(--color-primary);
-    font-family: var(--header-font);
-    font-size: var(--header-font-size);
-    margin: 2rem 0;
-}
 
 h3 {
     font-size: 1rem;
@@ -57,13 +45,6 @@ h3 {
     font-family: var(--header-font);
     text-transform: uppercase;
     margin: 1rem 0;
-}
-
-aside {
-    grid-area: aside;
-    background: var(--color-primary);
-    color: var(--color-secondary);
-    font-size: var(--about-font-size);
 }
 
 img  {
@@ -82,42 +63,11 @@ aside h2 {
     text-transform: uppercase;
 }
 
-main {
-    grid-area: main;
-    padding: 0 2.5rem;
-}
-
 main h2 {
     font-family: var(--title-font);
     font-size: var(--title-font-size);
     color: var(--color-secondary);
     text-transform: uppercase;
-}
-
-.container-grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 16.25rem 1fr;
-    grid-template-rows: 194px auto;
-    grid-template-areas:    "aside header"
-                            "aside main";
-    background-color: var(--color-bg-grid);
-    max-width: 1000px;
-    margin: auto;
-}
-
-.me {
-    padding-left: 2rem;
-}
-
-.me h2 {
-    font-family: var(--header-font);
-    color: var(--color-secondary);
-}
-
-.name {
-    color: var(--color-secondary);
-    font-weight: 300;
 }
 
 .experience {

@@ -1,0 +1,45 @@
+/* Grid template */
+.container-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16.25rem 1fr;
+    grid-template-rows: 194px auto;
+    grid-template-areas:    "aside header"
+                            "aside main";
+    background-color: var(--color-bg-grid);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+/* Hero selection */
+.hero {
+    padding: var(--body-padding);
+}
+
+.hero__title {
+    font-family: var(--header-font);
+    font-size: var(--header-font-size);
+    color: var(--color-primary);
+}
+
+.hero__name {
+    color: var(--color-secondary);
+    font-weight: 300;
+}
+
+.hero__subtitle {
+    font-family: var(--header-font);
+    color: var(--color-secondary);
+}
