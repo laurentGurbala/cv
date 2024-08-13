@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
 :root {
-    --color-primary: #FECA07;
+    --color-primary: #90B2CA;
     --color-secondary: #404040;
     --color-bg-grid: #E4E4E4;
     --color-bg-body: #282728;
@@ -26,13 +26,18 @@ body {
     background-color: var(--color-bg-body);
     font-family: var(--body-font);
     font-size: var(--body-font-size);
-    color: var(--color-txt);
+    color: var(--color-secondary);
 }
 
 a {
     color: var(--color-secondary);
     text-decoration: none;
     font-weight: bold;
+}
+
+li {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
 }
 
 header {
@@ -46,6 +51,14 @@ h1 {
     margin: 2rem 0;
 }
 
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--header-font);
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
 aside {
     grid-area: aside;
     background: var(--color-primary);
@@ -56,7 +69,7 @@ aside {
 img  {
     width: 50%;
     border-radius: 50%;
-    border: 3px solid var(--color-secondary);
+    border: 2px solid var(--color-secondary);
 }
 
 aside h2 {
@@ -71,6 +84,14 @@ aside h2 {
 
 main {
     grid-area: main;
+    padding: 0 2.5rem;
+}
+
+main h2 {
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    color: var(--color-secondary);
+    text-transform: uppercase;
 }
 
 .container-grid {
@@ -91,11 +112,50 @@ main {
 
 .me h2 {
     font-family: var(--header-font);
+    color: var(--color-secondary);
 }
 
 .name {
     color: var(--color-secondary);
     font-weight: 300;
+}
+
+.experience {
+    margin-bottom: 2rem;
+}
+
+.experience__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.experience__cursus {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+.experience__cursus p {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.experience__cursus--date {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.fas {
+    font-size: var(--title-font-size);
+    color: var(--color-primary);
+}
+
+.far {
+    color: var(--color-primary);
 }
 
 .photo {
