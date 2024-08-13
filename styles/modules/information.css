@@ -26,7 +26,19 @@
     margin-bottom: 1rem;
 }
 
-.information__text {
-    font-size: 0.8rem;
+.information p {
+    padding-bottom: 1rem;
+}
+
+.information p:last-child {
+    padding-bottom: 0;
+}
+
+.information ul {
+    padding-left: 1rem;
+}
+
+.information li {
+    font-size: 0.85rem;
     padding-bottom: 0.5rem;
 }
