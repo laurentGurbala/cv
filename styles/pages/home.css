@@ -25,7 +25,7 @@
 
 /* Hero selection */
 .hero {
-    padding: var(--body-padding);
+    margin: var(--body-margin);
 }
 
 .hero__title {

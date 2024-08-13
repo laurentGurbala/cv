@@ -5,6 +5,7 @@
 @import "pages/home.css";
 
 /* Modules */
+@import "modules/mainTitle.css";
 
 /* Design system */
 :root {
@@ -22,7 +23,7 @@
 
     --about-font-size: 0.8rem;
     --about-padding: 1rem 2rem;
-    --body-padding: 0 2rem; 
+    --body-margin: 0 2rem; 
 }
 
 * {
@@ -72,15 +73,6 @@ main h2 {
 
 .experience {
     margin-bottom: 2rem;
-}
-
-.experience__title {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border-bottom: 2px solid var(--color-primary);
-    padding-bottom: 0.4rem;
-    margin-bottom: 1rem;
 }
 
 .experience__cursus {
@@ -133,11 +125,6 @@ main h2 {
 
 .formation__cursus--detail, ul {
     margin-top: 0.8rem;
-}
-
-.fas {
-    font-size: var(--title-font-size);
-    color: var(--color-primary);
 }
 
 .far {

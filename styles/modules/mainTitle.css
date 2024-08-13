@@ -1,0 +1,13 @@
+.main-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--color-primary);
+    margin: var(--body-margin);
+    padding-bottom: 0.5rem;
+}
+
+.main-title__icon {
+    font-size: var(--title-font-size);
+    color: var(--color-primary);
+}
