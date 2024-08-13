@@ -5,7 +5,6 @@
     --color-secondary: #404040;
     --color-bg-grid: #E4E4E4;
     --color-bg-body: #282728;
-    --color-txt: #404040;
     
     --body-font: "Roboto", sans-serif;
     --body-font-size: 1rem;
@@ -40,6 +39,13 @@ header {
     grid-area: header;
 }
 
+h1 {
+    color: var(--color-primary);
+    font-family: var(--header-font);
+    font-size: var(--header-font-size);
+    margin: 2rem 0;
+}
+
 aside {
     grid-area: aside;
     background: var(--color-primary);
@@ -71,11 +77,25 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: 16.25rem 1fr;
+    grid-template-rows: 194px auto;
     grid-template-areas:    "aside header"
                             "aside main";
     background-color: var(--color-bg-grid);
     max-width: 1000px;
     margin: auto;
+}
+
+.me {
+    padding-left: 2rem;
+}
+
+.me h2 {
+    font-family: var(--header-font);
+}
+
+.name {
+    color: var(--color-secondary);
+    font-weight: 300;
 }
 
 .photo {
