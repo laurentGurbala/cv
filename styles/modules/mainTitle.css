@@ -13,3 +13,9 @@
     font-size: var(--title-font-size);
     color: var(--color-primary);
 }
+
+@media (max-width: 850px) {
+    .main-title {
+        justify-content: center;
+    }
+}

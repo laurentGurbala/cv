@@ -42,3 +42,10 @@
     font-size: 0.85rem;
     padding-bottom: 0.5rem;
 }
+
+@media (max-width: 850px) {
+    .information {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
