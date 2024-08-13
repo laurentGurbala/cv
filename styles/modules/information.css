@@ -1,0 +1,32 @@
+.information {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    margin: var(--body-margin);
+    padding: 1rem;
+}
+
+.information__date {
+    display: flex;
+    justify-content: space-between;
+    min-width: 6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.information__icon {
+    color: var(--color-primary);
+}
+
+.information__title {
+    font-family: var(--header-font);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.information__text {
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+}

@@ -1,7 +1,9 @@
 .main-title {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    font-family: var(--title-font);
+    text-transform: uppercase;
     border-bottom: 2px solid var(--color-primary);
     margin: var(--body-margin);
     padding-bottom: 0.5rem;
