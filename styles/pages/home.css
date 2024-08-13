@@ -24,6 +24,21 @@
     background-color: var(--color-primary);
 }
 
+@media (max-width: 650px) {
+    .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header"
+            "aside"
+            "main";
+    }
+
+    .aside {
+        margin-bottom: 3rem;
+    }
+}
+
 /* Hero selection */
 .hero {
     margin: var(--body-margin);
@@ -53,6 +68,12 @@
     .hero__title {
         margin-bottom: 1.2rem;
     }
+}
+
+@media (max-width: 650px) {
+    .hero {
+        margin: 4rem 0;
+    }   
 }
 
 /* Aside section */
@@ -85,6 +106,12 @@
     font-weight: bold;
 }
 
+@media (max-width: 650px) {
+    .contact__container {
+        text-align: center;
+    }   
+}
+
 .about__container p {
     text-align: justify;
     margin-bottom: 1.5rem;
@@ -103,6 +130,12 @@
 
 .technologies p:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 650px) {
+    .technologies {
+        text-align: center;
+    }   
 }
 
 .loisirs {
