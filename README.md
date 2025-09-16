@@ -2,7 +2,7 @@
 
 Je suis développeur PHP / Symfony en reconversion, passionné par la technologie, le développement web et les jeux vidéo. Ce dépôt contient mon CV en ligne, ainsi que des liens vers mes projets réalisés durant ma formation.
 
-##🎯 Objectif
+## 🎯 Objectif
 
 Partager mon parcours, mes compétences et mes projets concrets afin de montrer ma progression et mon savoir-faire en développement web.
 
