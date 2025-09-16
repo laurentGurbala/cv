@@ -1,1 +1,55 @@
+$primary: #1e5ed8;
+$secondary: #0b3b82;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger
+);
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.sidebar {
+    background: $primary;
+    color: white;
+    min-height: 100vh;
+}
+
+.sidebar-section {
+    margin-bottom: 2rem;
+}
+
+.sidebar-section h3 {
+    background-color: $secondary;
+    padding: .5rem;
+    text-transform: uppercase;
+}
+
+.main h1 {
+    color: $primary;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.link-light {
+  color: #f8f9fa;
+}
+
+.link-light:hover,
+.link-light:focus {
+  color: #e9ecef;
+}
+
+@media (max-width: 575.98px) {
+  .text-justify-sm {
+    text-align: justify;
+  }
+}

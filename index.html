@@ -1,209 +1,183 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="https://kit.fontawesome.com/9640580a8c.js" crossorigin="anonymous"></script>
-    <title>Laurent Gurbala - CV Developpeur Web</title>
+    <title>Laurent Gurbala - CV</title>
 
 </head>
+
 <body>
-    <!-- aout 2021 -->
-     <div class="container-grid">
-
-         <!-- En-tête du CV -->
-         <header class="header">
-             <div class="hero">
-                 <h1 class="hero__title">Laurent <span class="hero__name">Gurbala</span></h1>
-                 <h2 class="hero__subtitle">Développeur Back End Junior</h2>
-                </div>
-            </header>
-            
-            <!-- About -->
-            <aside class="aside">
+    <div class="container">
+        <div class="row">
+            <!-- colonne gauche -->
+            <aside class="col-md-4 col-lg-3 sidebar p-4">
                 <!-- Photo -->
-                <div class="photo">
-                    <img src="images/photo_cv.jpg" alt="photo de laurent gurbala">
+                <div class="mb-4">
+                    <img class="img-fluid mb-3" src="images/photo-cv.jpg" alt="photo de laurent gurbala">
+                    <h2>Laurent Gurbala</h2>
                 </div>
-                
+
                 <!-- Contact -->
-                <div>
-                    <h2 class="aside__title">contact</h2>
-                    <div class="contact__container">
-                        <p>
-                            Email<br>
-                            <a class="contact__link" href="mailto:laurent.gurbala@gmail.com">laurent.gurbala@gmail.com</a>
-                        </p>
-                        <p>
-                            Portfolio<br>
-                            <a class="contact__link" href="#">Pas encore disponible</a>
-                        </p>
-                        <p>
-                            Github<br>
-                            <a class="contact__link" href="https://github.com/laurentGurbala" target="_blank">github.com/laurentgurbala</a>
-                        </p>
-                        <p>
-                            Linkedin<br>
-                            <a class="contact__link" href="https://www.linkedin.com/in/laurent-gurbala-783676320/" target="_blank">laurent gurbala</a>
-                        </p>
-                    </div>
+                <div class="sidebar-section">
+                    <p>06 12 24 30 98</p>
+                    <p>laurent.gurbala@gmail.com</p>
+                    <p>88 rue Louis Chancel<br>26200 Montélimar</p>
+                    <a href="#" class="link-light">Portfolio</a>
                 </div>
-                
-                <!-- A propos -->
-                <div>
-                    <h2 class="aside__title">à propos de moi</h2>
-                    <div class="about__container">    
-                        <p>
-                            Passionné par le développement web, j'ai suivi une formation en tant que développeur web il y a quelques années, qui m'a permis d'acquérir une base solide en HTML, CSS et JavaScript. Depuis, j'ai continuellement nourri ma curiosité technologique en approfondissant mes connaissances dans des domaines clés comme la Programmation Orientée Objet (POO) et le framework React.
-                        </p>
-                        <p>
-                            Je suis curieux, rigoureux, et toujours à la recherche de nouvelles opportunités pour améliorer mes compétences. Mon objectif est de créer des solutions innovantes et de contribuer activement à des projets ambitieux dans le domaine du développement web.
-                        </p>
-                        <p>
-                            Vous retrouverez les projets sur lesquels j'ai travaillé sur mon github ou dans mon portfolio.
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Technologies -->
-                <div>
-                    <h2 class="aside__title">technologies</h2>
-                    <div class="technologies">
-                        <p><strong>Git et Github</strong></p>
-                        <p>intermédiaire</p>
-                        
-                        <p><strong>HTML</strong></p>
-                        <p>confirmé</p>
-                        
-                        <p><strong>CSS</strong></p>
-                        <p>intermédiaire</p>
 
-                        <p><strong>Sass</strong></p>
-                        <p>débutant</p>
-                        
-                        <p><strong>JavaScript</strong></p>
-                        <p>débutant</p>
-                        
-                        <p><strong>NodeJs</strong></p>
-                        <p>débutant</p>
+                <!-- Compétences -->
+                <div class="sidebar-section">
+                    <h3 class="mb-4">Compétences</h3>
+                    <ul>
+                        <li class="fw-bold">
+                            HTML / CSS : <span class="badge bg-success">Avancé</span>
+                            <p class="fw-normal">Intégration de maquettes, responsive design</p>
+                        </li>
+                        <li class="fw-bold">
+                            JavaScript : <span class="badge bg-info">Débutant</span>
+                            <p class="fw-normal">Développement d'interfaces dynamiques</p>
+                        </li>
+                        <li class="fw-bold">
+                            PHP : <span class="badge bg-success">Avancé</span>
+                            <p class="fw-normal">MVC, POO</p>
+                        </li>
+                        <li class="fw-bold">
+                            SQL : <span class="badge bg-info">Débutant</span>
+                            <p class="fw-normal">Gestion de bases de données</p>
+                        </li>
+                        <li class="fw-bold">
+                            Git : <span class="badge bg-warning">Intermédiaire</span>
+                            <p class="fw-normal">Gestion de versions</p>
+                        </li>
 
-                        <p><strong>Symfony</strong></p>
-                        <p>intermédiaire</p>
-                    </div>   
+                    </ul>
                 </div>
-                
-                <!-- Loisirs -->
-                <div>
-                    <h2 class="aside__title">Loisirs</h2>
-                    <div class="loisirs">
-                        <i class="fa-solid fa-gamepad"></i>
-                        <i class="fa-solid fa-keyboard"></i>
-                        <i class="fa-solid fa-person-hiking"></i>
-                    </div>
-                </div>
+
+
             </aside>
-            
-            <!-- Contenu principal -->
-            <main class="main">
-                <!-- Expérience pro -->
+
+            <!-- colonne droite -->
+            <main class="col-md-8 col-lg-9 main p-3 p-sm-4 p-lg-5">
+                <!-- Titre -->
+                <h1 class="mb-4">Développeur Backend junior</h1>
+
+                <!-- Description -->
                 <section>
-                    <div class="main-title">
-                        <i class="fas fa-laptop main-title__icon"></i>
-                        <h2 >expérence profesionnelle</h2>
+                    <p class="text-justify-sm">
+                        Junior certifié « Développeur Concepteur Logiciel » (niveau 6 RNCP), spécialisé en
+                        PHP/Symfony et ouvert aux autres technologies. <br>
+                        Formé aux bonnes pratiques de conception et de développement, je maîtrise l’analyse des besoins, la création d’architectures solides et le
+                        développement d’applications performantes. <br>
+                        Mon objectif est de mettre mes compétences techniques et ma rigueur au service de projets innovants, tout en continuant à progresser dans un environnement
+                        collaboratif.
+                    </p>
+                </section>
+
+                <!-- Focus -->
+                 <section>
+                    <h2 class="mb-3">Focus</h2>
+                    <ul>
+                        <li>
+                            <p class="fw-bold">Outil de gestion avec Symfony</p>
+                            <p class="text-justify-sm">Implémentation de fonctionnalités clés : CRUD utilisateurs/projets, gestion des rôles et authentification.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Création d’une API REST</p>
+                            <p class="text-justify-sm">Mise en place de la sérialisation JSON, gestion des routes et sécurisation des accès à l’API.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Site e-commerce</p>
+                            <p class="text-justify-sm">Développement d’un site marchand complet avec Symfony : catalogue produits, panier, espace utilisateur.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Tests et intégration continue</p>
+                            <p class="text-justify-sm">Mise en place de tests unitaires et fonctionnels avec PHPUnit et le framework de test Symfony.</p>
+                            <p class="text-justify-sm">Mise en place d’une pipeline d’intégration continue (CI) pour automatiser les tests avant déploiement</p>
+                        </li>
+                        
+                    </ul>
+                 </section>
+                <!-- Formation -->
+                <section>
+                    <h2 class="mb-3">Formation</h2>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
+                            <p>2025</p>
+                        </div>
+                        <div>
+                            <p class="fw-medium">Développeur d'application PHP Symfony</p>
+                            <ul>
+                                <li class="text-justify-sm">
+                                    Développement d’applications web avec Symfony : Création d’outils complets,
+                                    intégration de la gestion d’utilisateurs et d’authentification, mise en place de
+                                    fonctionnalités back-end et d’échanges de données affichées via Twig.
+                                </li>
+                                <li class="text-justify-sm">
+                                    Qualité & industrialisation : Implémentation de tests unitaires et fonctionnels pour
+                                    sécuriser les évolutions ; refactorisation de code existant pour améliorer
+                                    performance et maintenabilité ; déploiement d’applications web en production avec
+                                    documentation technique.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="information">
-                        <div class="information__date">
-                            <i class="far fa-dot-circle information__icon"></i>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
+                            <p>2021</p>
+                        </div>
+                        <div>
+                            <p class="fw-medium">Développeur Web</p>
+                            <ul>                                
+                                <li>
+                                    Conception et intégration web : Transformation de maquettes graphiques en sites web
+                                    fonctionnels, intégration des contenus et mise en forme responsive. Dynamisation des
+                                    pages via animations CSS et effets interactifs.
+                                </li>
+                                <li>
+                                    Développement fonctionnel : Création de sites e-commerce et d’un réseau social
+                                    d’entreprise, intégration de fonctionnalités back-end, gestion des utilisateurs et
+                                    sécurisation des données. Mise en place d’une API sécurisée pour la communication
+                                    entre
+                                    applications.
+                                </li>
+                                <li>
+                                    Qualité et optimisation : Optimisation du référencement SEO pour améliorer la visibilité
+                                    des sites web, suivi des bonnes pratiques de développement et documentation des projets
+                                    pour faciliter leur maintenance.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Expérience professionnelle -->
+                <section>
+                    <h2 class="mb-3">Expérience professionnelle</h2>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
                             <p>2013 - 2025</p>
                         </div>
                         <div>
-                            <h3 class="information__title">Logistique</h3>
-                            <ul>
-                                <li class="information__text">Gestion efficace du flux de marchandises, de la réception à l'expédition, en respectant des délais stricts.</li>
-                                <li class="information__text">Exécution précise des tâches de picking, packing, stow et dispatch, assurant la qualité et la satisfaction client.</li>
-                                <li class="information__text">Capacité à travailler en équipe dans un environnement dynamique et à haute pression.</li>
-                                <li class="information__text">Développement de compétences en gestion du temps et en organisation pour maximiser l'efficacité des opérations.</li>
-                                <li class="information__text">Respect rigoureux des procédures de sécurité et de qualité pour garantir un environnement de travail sécurisé.</li>
-                            </ul>
+                            <p class="fw-medium">Amazon</p>
+                            <P class="text-justify-sm">
+                                Respect strict des normes de sécurité et des procédures internes, assurant zéro incident
+                                sur le poste de travail.<br>
+                                Collaboration efficace avec une équipe de plus de 20 personnes pour atteindre et
+                                dépasser les objectifs de productivité mensuels.
+                            </P>
                         </div>
                     </div>
                 </section>
-                
-                <!-- Formations -->
-                <section>
-                    <div class="main-title">
-                        <i class="fas fa-laptop main-title__icon"></i>
-                        <h2>formation</h2>
-                    </div>
-                    <!-- 2024 - 2025 -->
-                    <div class="information">
-                        <div class="information__date">
-                            <i class="far fa-dot-circle information__icon"></i>
-                            <p>2024 - 2025</p>
-                        </div>
-                        <div>
-                            <h3 class="information__title">Développeur d'application PHP Symfony | OpenClassrooms</h3>
-                                <p>
-                                    Dans le cadre de ma reconversion professionnelle, j’ai suivi la formation de Développeur d’application PHP / Symfony chez OpenClassrooms (niveau bac +4).
-                                    Cette formation m’a permis d’approfondir mes compétences en développement web backend.
-                                </p>
-                            <ul>
-                                <li>PHP/Symfony</li>
-                                <li>MySQL, Doctrine ORM</li>
-                                <li>architecture MVC</li>
-                                <li>Gestion d'authentification</li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <!-- 2021-2024 -->
-                    <div class="information">
-                        <div class="information__date">
-                            <i class="far fa-dot-circle information__icon"></i>
-                            <p>2021 - 2024</p>
-                        </div>
-                        <div>
-                            <h3 class="information__title">Autodidacte | Openclassrooms | Udemy</h3>
-                            <p>
-                                En complément de ma formation officielle, j'ai consacré de nombreuses heures à l'apprentissage autodidacte pour approfondir mes compétences en JavaScript et React, me permettant ainsi de maîtriser les aspects avancés de ces technologies.
-                            </p>
-                            <p>
-                                Curieux et passionné par le développement, j'ai également exploré le développement en C# pour créer des applications et des jeux vidéo, renforçant ainsi ma polyvalence en tant que développeur. Cette démarche proactive m'a permis de diversifier mes compétences, de rester à jour avec les dernières technologies, et d'acquérir une expérience pratique sur des projets variés.
-                            </p>                          
-                        </div>
-                    </div>
 
-                    <!-- 2020 -2021 -->
-                    <div class="information">
-                        <div class="information__date">
-                            <i class="far fa-dot-circle information__icon"></i>
-                            <p>2020 - 2021</p>
-                        </div>
-                        <div>
-                            <h3 class="information__title">Développeur web | Openclassrooms</h3>
-                                <p>
-                                    J'ai suivi la formation de Développeur Web chez OpenClassrooms, où j'ai acquis des compétences essentielles en HTML, CSS, et JavaScript mais aussi en frameworks modernes comme React.
-                                </p>
-                                <p>
-                                    Cette formation m'a permis de développer une solide compréhension des fondamentaux du web et de réaliser des projets concrets qui m'ont préparé à relever les défis du monde professionnel.
-                                </p>
-                                <p>
-                                    Projets réalisés pendant ma formation:
-                                </p>
-                            <ul>
-                                <li>Transformation de maquettes en site web</li>
-                                <li>Dynamisation des pages web - animation CSS</li>
-                                <li>Optimisation du référencement SEO d'un site web existant</li>
-                                <li>Création d'un site web e-commerce</li>
-                                <li>Création d'une API sécurisée</li>
-                                <li>Création d'un réseau social d'entreprise</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
             </main>
+
         </div>
-            
-        </body>
-        </html>
+    </div>
+
+</body>
+
+</html>
