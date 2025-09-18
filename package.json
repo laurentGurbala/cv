@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch styles/style.scss styles/style.css"
+    "sass": "sass --watch styles/style.scss styles/style.css",
+    "sass-compressed": "sass --style=compressed styles/style.scss styles/style.css"
   },
   "repository": {
     "type": "git",
