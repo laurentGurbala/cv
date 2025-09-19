@@ -30,9 +30,9 @@ Maîtrise du responsive design avec Bootstrap
 
 ## 🔗 Liens
 
-CV en ligne : [CV](http://127.0.0.1:5500/index.html)
+CV en ligne : [CV](https://laurentgurbala.github.io/cv/)
 
-Portfolio : [Lien vers le portfolio, à venir]
+Portfolio : [portfolio](https://laurent-gurbala.fr)
 
 ## 🤝 Contact
 
