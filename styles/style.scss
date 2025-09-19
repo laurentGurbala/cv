@@ -6,6 +6,8 @@ $warning: #ffc107;
 $danger: #dc3545;
 $light: #fff;
 $dark: #000;
+$badge-debutant: #065A6B;
+$badge-intermediaire: #664D00;
 
 $theme-colors: (
   "primary": $primary,
@@ -15,7 +17,9 @@ $theme-colors: (
   "warning": $warning,
   "danger": $danger,
   "light": $light,
-  "dark": $dark
+  "dark": $dark,
+  "badge-debutant": $badge-debutant,
+  "badge-intermediaire": $badge-intermediaire
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
